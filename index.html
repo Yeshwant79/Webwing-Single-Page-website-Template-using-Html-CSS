@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBWING Previw</title>
+    <link rel="icon" type="image" href="img/Smile.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+<!-- ------------------------------------------------------------------------------- -->
+    <style>
+/*----------------------------------------------------------------------------------- */
+        *{margin: 0;padding: 0;}
+
+        .fs1{ height:0.4in; width: 100%; background-color: rgb(3, 3, 105); color: white; }
+        .a{ margin-left: 0.5in; float: left; line-height: 0.4in;}
+        .b{ margin-right: 0.5in; float: right; line-height: 0.4in;}
+        .b a{ text-decoration: none; color: white; }
+        .b a:hover{ color: #f2db18;}
+        .fs2{ height:0.8in; width: 100%; background-color:transparent; line-height: 0.8in;}
+        .l{ margin-left:0.5in; float: left;}
+        .m{ margin-left:2.8in; float: left; color: #f2db18; font-size:40px; }
+        .r{ margin-right:0.5in; float: right;}
+/* ---------------------------------------------------------------------------------- */
+        nav{ height:0.6in; width: 100%; background-color:rgb(3, 3, 105); line-height:0.6in; }
+        .j{ float: left; margin-left: 1in;}
+        .k{ float: right; margin-right:1in;}
+        .h{ background-color:#f2db18; padding:0.2in; border-radius:40px;}
+        .h:hover{background-color:#154492; border-radius:40px;}
+        nav a{ text-decoration: none; color: white; padding: 0.2in 0.2in; }
+        nav a:hover { background-color: #f2db18;}
+/* ---------------------------------------------------------------------------------- */
+        .s1{ height:70vh; width: 100%; background-image:url('img/07.jpg'); background-size: cover; background-position:center;}
+        .overlay{ height:70vh; width: 100%; background:rgba(243, 243, 237, 0.8); display: flex;justify-content: center; align-items: center;}
+        .mater{ color:solid black; text-align: center;opacity: 1;}
+/* ---------------------------------------------------------------------------------- */
+        .s2{ height: 80vh; width: 100%; background-color:transparent; margin-top:0.5in;}
+        .sl{ height: 80vh; width:60%; background-color:transparent; float: left; }
+        .sl button{ height: 0.5in; width:2in; background-color: #f2db18; color: white; border: none; font-size: 20px;}
+        .sl button:hover{ background-color: #154492;}
+        .sr{ height: 60vh; width:36%;float:right; margin-right: 2%; background-image:url('img/Thank\ you.jpg'); background-size:cover; }
+/* ---------------------------------------------------------------------------------- */
+        .s3{ height: 15vh; width:95%; margin-left: 5%; background-color: transparent;}
+        .c{ color: #f2db18;}
+/* ---------------------------------------------------------------------------------- */
+        .s4{ height:5in; width: 100%; background-color:transparent; margin-top: 20px;}
+        table{padding: 0.2in 1in; border-spacing: 0.5in;}
+        table a {text-decoration:underline; text-decoration-thickness: 2px ;}
+        table a:hover{ color:#f2db18}
+        
+/* ---------------------------------------------------------------------------------- */
+        .s5{ height: 1.5in; width: 100%; background-color: transparent; line-height:1.5in; text-align: center;}
+        .s5 a{ text-decoration: none; color:#f2db18;}
+/* ---------------------------------------------------------------------------------- */
+        .s6{ height:auto; width:100%; background-color:transparent;} 
+        ul li{margin-top:20px; list-style-type:none; display:inline;}
+        .img2{ margin-left: 50px; margin-top: 20px; height:100%; width:20%;}
+        .s6 img:hover{ opacity:0.3;}
+        .s6 h2{ margin-top: 0.8in; text-align: center;}
+        .s6 a{text-decoration: none; color:#f2db18;}
+/* ------------------------------------------------------------------------------------ */
+        .s7{ height:auto; width:90%; margin-left: 5%; margin-top: 1in;}
+        .x{height:0.8in; width:25%; float: left; }
+        .y{height:0.8in; width:25%; margin-left:75%;}
+        .z{ color: #f2db18; font-size:large;}
+        .tu{height: 0.8in; width:30%;float: left;}
+        .tl{height: 0.8in; width:70%;margin-left:30%; font-size:40px; line-height:30px;}
+
+        .s7 h2{ margin-top: 0.8in; text-align: center;}
+        .s7 a{text-decoration: none; color:#f2db18;}
+
+/* ------------------------------------------------------------------------------ */
+        .s8{ height: auto; width: 100%; margin-top: 1in; background-color:transparent;}
+        .e{ height: auto; width:90%;margin-left: 8%;}
+        .e1{ height: auto; width:33%; float: left;}
+        .e2{ height: auto; width:34%; margin-left: 66%;}
+        .img3{ border:solid silver 15px; border-radius: 50%; padding: 2px; padding: 0;}
+        
+        .img3:hover{ border:solid #f2db18 15px; border-radius: 50%; padding: 2px; padding: 0;}
+
+/* ------------------------------------------------------------------------------------ */
+        .s9{ height: auto; width: 60%; margin-left:20%; margin-top: 1in; text-align: center;}
+
+        .nu{ border:1px solid orange; padding:2px; width:70%; height:1in; line-height:0.7cm; text-align: center; margin-top:1cm; margin-left:1in;}
+
+        .nl{ margin-top:0.5cm; height: 1in; width:100; padding:5px; text-align: left;  margin-left:1in;}
+        #nl1{ height: auto; width: 15%; float: left;}
+        #nl2{ height: auto; width: 85%; margin-left:15%; line-height: 1in; text-align: left;}
+/* ------------------------------------------------------------------------------------ */
+        .s10{ height: auto; width: 60%; margin-left: 20%; text-align: center; margin-top:0.5in;}
+        form{ margin-top:0.5in;}
+        input{text-decoration: none; border-left:none; border-top: none; border-right: none; border-bottom: solid 1px black;  padding: 2px; width: 100%; height:0.8in; font-size:x-large;}
+        /* input:hover{ border-left:none; border-top: none; border-right: none;} */
+        textarea{ width:100%; height: 80px; padding-top:10px; border-bottom:1px solid black; border-top:none; border-right:none; border-left:none; height:1in; font-size:xx-large;}
+       .s10 button{ height: 0.5in; width:2in; background-color: #f2db18; color: white; border: none; font-size: 20px; border: transparent; border-radius:40px;}
+       .s10 button:hover{ background-color: #154492;}
+
+/* ------------------------------------------------------------------------------------ */
+        footer{ height: 5in; width: 100%;}
+
+        .ft1{ height:4in; width: 100%; background-image: url("img/Wellcome.jpg"); background-repeat: repeat; background-size: cover; background-position: center; margin-top:15px;}
+
+        .ov{ height:41n; width: 100%; background:rgba(243, 243, 237, 0.8); display: flex;justify-content: center;}
+
+        .mat{ height:4in; width: 100%;}
+        /* ----------------------------------------------- */
+
+        .lhs{ height:4in; width:40%; float: left;}
+
+        .lhs table{padding: 0.2in 0.2in; border-spacing: 0.2in; font-size: 15px;}
+
+        .lhl{ margin-left: 1cm;}
+
+        .u{ font-size:30px; color: black; text-decoration: none;}
+
+        .u:hover{ color:#f2db18}
+
+/* --------------------------- */
+        .rhs{ height:4in; width:60%; margin-left:40%;}
+
+        .op1{ height: 25%; width: 100%; }
+
+        .op2{ height: 75%; width: 100%; }
+
+        .g1{ height: auto; width: 30%; float: left; margin-left: 5%;}
+        .g1 a{ text-decoration: none; font-size:20px; display:block; line-height: 1cm; color: black;}
+        .g2{ height:auto; width: 30%; float: left;}
+        .g2 a{ text-decoration: none; font-size:20px; display:block; line-height: 1cm; color: black;}
+        .g3{ height:auto; width:30% ; margin-left: 65%;}
+        .g3 a{ text-decoration: none; font-size:20px; display:block; line-height: 1cm; color: black;}
+        .g3 input{ height:0.7cm; border:1px solid salmon; border-radius: 30px; font-size:15px; margin-top: 0.5cm;}
+        .g3 button{ background-color: #f2db18; height: 1cm; width: 3cm; border-radius: 30px; border: transparent; margin-top: 0.5cm;}
+        .g3 button:hover{ background-color: #154492; color: white;}
+
+
+
+/* ------------------------------------------------------------------------------------------ */
+        
+        .ft2{ height:1in; width: 100%; background-color:white; line-height:1in; text-align: center;}
+
+        .zl{ text-decoration: none; color:black;}
+
+        .zl:hover{ display: none;}
+/* ------------------------------------------------------------------------------------ */
+    </style>
+</head>
+<!-- ----------------------------------------------------------------------------------- -->
+<body>
+    <main>
+<!-- ----------------------------------------------------------------------------------- -->
+        <header>
+            <section class="fs1">
+                <h3 class="a">Language :&nbsp;&nbsp; <i class="zmdi zmdi-grain"></i> &nbsp;  English  &nbsp;&nbsp; <i class="zmdi zmdi-looks"></i> </h3>
+                <h3 class="b"> 
+                        Follow Us   &nbsp;&nbsp;
+                        <a href=""> <i class="zmdi zmdi-facebook"></i>          &nbsp;&nbsp;</a>
+                        <a href=""> <i class="zmdi zmdi-twitter-box"></i>       &nbsp;&nbsp;</a>
+                        <a href=""> <i class="zmdi zmdi-linkedin"></i>          &nbsp;&nbsp;</a>
+                        <a href=""> <i class="zmdi zmdi-filter-center-focus">   &nbsp;&nbsp;</i></a>
+                 </h3>
+            </section>
+            <section class="fs2">
+                <h3 class="l"><i class="zmdi zmdi-phone"></i> Call Us : +01 1234567890</h3>
+                <h1 class="m">WEBWING</h1>
+                <h3 class="r"><i class="zmdi zmdi-email"></i> demo@gmail.com</h3>
+            </section>
+        </header>
+<!-- ----------------------------------------------------------------------------------- -->
+        <nav>
+                <section class="j">
+                <a href="">HOME</a>
+                <a href="">ABOUT</a>
+                <a href="">SERVICE</a>
+                <a href="">TEAM</a>
+                <a href="">CLINTS</a>
+                <a href="">Contect-US</a>
+                </section>
+
+                <section class="k">
+                <a href=""><i class="zmdi zmdi-search-for"></i></a>
+                <span class="h"> <a href="">SIGN UP NOW</a></span>
+                </section>
+        </nav>
+<!-- ----------------------------------------------------------------------------------- -->
+        <div class="s1">
+                <div class="overlay">
+                        <br><br><br><br>
+                        <div class="mater">
+                                <h1>Trusted and <br>Professional Advisers</h1>
+                                <h4>for your Business</h4>
+                                <h3>Showcase your Profile to the world using online CV builder and Get Hired Faster</h3>
+                                <br><br>
+                                <h4>About us  &nbsp;&nbsp;-----------</h4>
+                        </div>
+                </div>
+        </div>
+<!-- ----------------------------------------------------------------------------------- -->
+        <section class="s2">
+            <section class="sl">
+<pre>
+
+<span style="color:gold; font-size:20px;" class="lhl">ABOUT US</span>
+
+<span style="font-size: 44px; color:#154492;" class="lhl">CAN HELP YOUR BUSINESS GROW </span>
+
+
+<span style="font-size: 25px;" class="lhl"><b>EVERYTHING YOU NEED IN ONE SOLUTION</b></span>
+
+<span style="color:gold; font-size:20px;" class="lhl">HELP YOUR NEXT CAREER MOVE MORE SMOOTHER AND
+
+    MORE EFFICIENT               </span>
+
+<h3 class="lhl">It is a long established fact that a reader will be distracted by the readable   
+
+content of a page when looking at its layout. The point of using </h3>
+</pre>
+<br><br>
+<span style="color:gold; font-size:20px;" class="lhl">TRY ONLINE CV BUILDER FOR FREE</span>                         
+&nbsp;&nbsp;&nbsp;
+<button><b>Get Stared > </b></button>
+            </section>
+            <section class="sr"></section>
+        </section>
+<!-- ----------------------------------------------------------------------------------- -->
+        <section class="s3">
+                <br><br>
+                <h2 class="c">SERVICE</h2>
+                <br>
+                <font size="6" color="darkblue" face="bold">WE CAN HELP YOUR BUSINESS
+                        <br>
+                        GROW
+                </font>
+        </section>
+<!-- ----------------------------------------------------------------------------------- -->
+        <section class="s4">
+            <table>
+                <tr cellpadd>
+                        <td> 
+                                <img src="img/01.png" alt="01">
+                                <br>
+                                <a><b>DEGITAL  MARKETING</b></a>
+                                <br><br>
+                                Lorem Ipsum is simply dummy text of the 
+                                <br>
+                                printing and 1500s
+                        </td>
+                        <td>
+                                <img src="img/02.png" alt="02">
+                                <br>
+                                <a><b>FINANCIAL PLANING</b></a>
+                                <br><br>
+                                Lorem Ipsum is simply dummy text of the 
+                                <br>
+                                printing and 1500s
+                        </td>
+                        <td>
+                                <img src="img/03.png" alt="03">
+                                <br>
+                                <a><b>DIGITAL MARKETING</b></a>
+                                <br><br>
+                                Lorem Ipsum is simply dummy text of the 
+                                <br>
+                                printing and 1500s
+                        </td>
+                </tr>
+                <tr>
+                        <td>
+                                <img src="img/04.png" alt="04">
+                                <br>
+                                <a><b>BUSINESS CONSULTING</b></a>
+                                <br><br>
+                                Lorem Ipsum is simply dummy text of the 
+                                <br>
+                                printing and 1500s
+                        </td>
+                        <td>
+                                <img src="img/05.png" alt="05">
+                                <br>
+                                <a><b>MARKETING RESEARCH</b></a>
+                                <br><br>
+                                Lorem Ipsum is simply dummy text of the 
+                                <br>
+                                printing and 1500s
+                        </td>
+                        <td>
+                                <img src="img/06.png" alt="06">
+                                <br>
+                                <a><b>UX RESEARCH</b></a>
+                                <br><br>
+                                Lorem Ipsum is simply dummy text of the 
+                                <br>
+                                printing and 1500s
+                        </td>
+                </tr>
+            </table>
+        </section>
+<!-- ----------------------------------------------------------------------------------- -->
+        <section class="s5">
+                <a href=""><h2>Read More -----------</h2></a>
+        </section>
+<!-- ----------------------------------------------------------------------------------- -->
+        <section class="s6">
+                <section class="lhl">
+                <h3 class="c">PORTFOLIO</h3>
+                <br>
+                <h1>CHOOSE A PROFESSIONAL DESIGN</h1>
+                <br>
+                <h3>Websites</h3>
+                <br><br>
+                <h4>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem 
+                <br> Ipsum is that it has a more-or-less normal distrib</h4>
+                </section> 
+                <br><br>
+                <ul>
+                        <li><img src="img/Smile.jpg" alt="" class="img2"></li>
+                        <li><img src="img/Smile.jpg" alt="" class="img2"></li>
+                        <li><img src="img/Smile.jpg" alt="" class="img2"></li>
+                        <li><img src="img/Smile.jpg" alt="" class="img2"></li>
+                </ul>
+
+                <a href=""><h2>Read More -----------</h2></a>
+
+        </section>
+
+<!-- ----------------------------------------------------------------------------------- -->
+        <section class="s7">
+
+                <h4 class="c">CREATE</h4>
+                <br>
+                <span><h1>PERSONALISED BUSINESS</h1></span>
+                <br>
+                <span><h3>ss normal distribution of letters, as opposed to using</h3></span>
+
+                <br><br><br><br>
+        
+                <section class="x">
+                        <section class="tu"><img src="img/07.png" alt="07"></section>
+                        <section class="tl">23 <br><span class="z"> NOMINATIONS </span></section>
+                </section>
+                <section class="x">
+                        <section class="tu"><img src="img/08.png" alt="08"></section>
+                        <section class="tl">31<br><span class="z"> AGENCIES </span></section>
+                </section>
+                <section class="x">
+                        <section class="tu"><img src="img/09.png" alt="09"></section>
+                        <section class="tl">7<br><span class="z"> AWARDS </span></section>
+                </section>
+                <section class="y">
+                        <section class="tu"><img src="img/10.png" alt="10"></section>
+                        <section class="tl">8<br><span class="z"> Supported </span></section>
+                </section>
+
+                <a href=""><h2>Read More -----------</h2></a>
+        </section>
+
+<!-- ----------------------------------------------------------------------------------- -->
+        <section class="s8">
+                <section class="lhl">
+                <h4 class="c">TEAM</h4>
+                <br>
+                <h1>WE HAVE A PROFESSIONAL TEAM OF BUSINESS ANALYSTS.</h1>
+                </section>
+
+                <br><br><br><br>
+
+                <section class="e">
+                        <section class="e1"> <img src="img/4.jpg"  class="img3" height="250px" width="250px"></section>
+                        <section class="e1"> <img src="img/4.jpg"  class="img3" height="250px" width="250px"></section>
+                        <section class="e2"> <img src="img/4.jpg"  class="img3" height="250px" width="250px"></section>
+                </section>
+
+        </section>
+
+<!-- ----------------------------------------------------------------------------------- -->
+        <section class="s9">
+                <h5 class="c">TESTIMONIAL</h5>
+                <br>
+                <h1 style="font-size:xx-large;">WHAT IS SYAS OUR CLIENTS</h1>
+
+                <section class="nu"> 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                <br>
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                <br>
+                ad minim veniam, quis
+                </section>
+
+                <section class="nl">
+                        <section id="nl1"><img src="img/4.jpg" alt="" height="80px" width="80px"></section>
+                        <section id="nl2"> <h2 class="c"> &nbsp;&nbsp; CONSECTETUR</h2></section>
+                        
+                        
+                </section>
+        </section>
+
+<!-- ----------------------------------------------------------------------------------- -->
+        <section class="s10">
+                <h3 class="c">CONTACT US</h3>
+                <br>
+                <h1 style="font-size:xx-large;">REQUEST A CALL BACK</h1>
+
+                <form>
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Email">
+                        <input type="text" placeholder="Phone Number">
+                        <!-- <input type="text" placeholder="Message"> -->
+                        <textarea placeholder="Message" cols="74" rows="1"></textarea>
+
+                        <br><br><br>
+                        <button><b>Submit</b></button>
+                </form>
+
+        </section>
+
+<!-- ----------------------------------------------------------------------------------- -->
+        <!-- <section class="s11">
+
+        </section> -->
+<!-- ---------------------------------------------------------------------------------- -->
+        <footer>
+                <section class="ft1">
+                        <div class="ov">
+                                <div class="mat">
+
+                                        <section class="lhs">
+                                                <br><br>
+                                                <section class="lhl"> <font size="25px">WEBWING</font></section>
+                                                <br>
+
+                                                <section class="lhl"> Contect-US</section> 
+
+                                                
+                                                        <table>
+                                                                <tr>
+                                                                        <td> <a href="#" class="u"><i class="zmdi zmdi-pin">   </i></a> </td>
+                                                                        <td> <a href="#" class="u"><i class="zmdi zmdi-email"> </i></a> </td>
+                                                                        <td> <a href="#" class="u"><i class="zmdi zmdi-phone-in-talk"></i></a> </td>
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>London 145</td>
+                                                                        <td>demo@gmail.com</td>
+                                                                        <td>+01 1234567890</td>
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>United Kingdom</td>
+                                                                        <td>demo@gmail.com</td>
+                                                                        <td>+01 1234567889</td>
+                                                                </tr>
+                                                        </table>
+                                                
+                                                <br>
+                                                <section class="lhl">
+                                                        <a href="#" class="u"> <i class="zmdi zmdi-facebook">              </i>  &nbsp;&nbsp;</a>
+                                                        <a href="#" class="u"> <i class="zmdi zmdi-twitter-box">           </i>  &nbsp;&nbsp;</a>
+                                                        <a href="#" class="u"> <i class="zmdi zmdi-linkedin">              </i>  &nbsp;&nbsp;</a>
+                                                        <a href="#" class="u"> <i class="zmdi zmdi-filter-center-focus">   </i>  &nbsp;&nbsp;</a>
+                                                </section>
+                                        </section>
+                
+                
+                <!-- -------------------------------------------------------------------------------------------------------- -->
+                
+                                        <section class="rhs">
+                                                <!-- <table>
+                                                        <tr>
+                                                                <th>Menus</th>
+                                                                <th>Recent Post</th>
+                                                                <th>Newsletter</th>
+                                                        </tr>
+                                                        <tr>
+                                                                <td></td>
+                                                                <td></td>
+                                                                <td></td>
+                                                        </tr>
+                                                </table> -->
+                                                <section class="op1"></section>
+                                                <section class="op2">
+                                                        <section class="g1">
+                                                                <ul>
+                                                                        <li><a href=""><font size="xx-large"><b>Menus</b></font></a></li>
+                                                                        <li><a href="">Home</a></li>
+                                                                        <li><a href="">About Us</a></li>
+                                                                        <li><a href="">Services</a></li>
+                                                                        <li><a href="">Team</a></li>
+                                                                        <li><a href="">Clients</a></li>                                                                        </a></li>
+                                                                        <li><a href="">Contact us</a></li>
+                                                                </ul>
+                                                        </section>
+                                                        <section class="g2">
+                                                                <ul>
+                                                                        <li><a href=""><font size="xx-large"><b>Recent Post</b></font></a></li>
+                                                                        <li><a href="">Participate in staff</a></li>
+                                                                        <li><a href="">meetings manage</a></li>
+                                                                        <li><a href="">dedicated to</a></li>
+                                                                        <li><a href="">marketing</a></li>
+                                                                        <li><a href="">November 25, 2019</a></li>
+                                                                </ul>
+                                                        </section>
+                                                        <section class="g3">
+                                                                <ul>
+                                                                        <li><a href=""><font size="xx-large"><b>Newsletter</b></font></a></li>
+                                                        
+                                                                        <li><input type="text" placeholder="Your Email"></li>
+                                                                        <li><button>Send</button></li>
+                                                                </ul>
+                                                        </section>
+                                                </section>
+                                        </section>
+                                </div>
+                        </div>
+                </section>
+                <section class="ft2"><h4>&copy; 2019 All Rights Reserved.<a href="#" class="zl">Free html Templates</a></h4></section>
+        </footer>
+<!-- ----------------------------------------------------------------------------------- -->
+    </main>
+</body>
+</html>
