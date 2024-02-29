@@ -1,0 +1,131 @@
+*{margin: 0;padding: 0;}
+
+        .fs1{ height:0.4in; width: 100%; background-color: rgb(3, 3, 105); color: white; }
+        .a{ margin-left: 0.5in; float: left; line-height: 0.4in;}
+        .b{ margin-right: 0.5in; float: right; line-height: 0.4in;}
+        .b a{ text-decoration: none; color: white; }
+        .b a:hover{ color: #f2db18;}
+        .fs2{ height:0.8in; width: 100%; background-color:transparent; line-height: 0.8in;}
+        .l{ margin-left:0.5in; float: left;}
+        .m{ margin-left:2.8in; float: left; color: #f2db18; font-size:40px; }
+        .r{ margin-right:0.5in; float: right;}
+/* ---------------------------------------------------------------------------------- */
+        nav{ height:0.6in; width: 100%; background-color:rgb(3, 3, 105); line-height:0.6in; }
+        .j{ float: left; margin-left: 1in;}
+        .k{ float: right; margin-right:1in;}
+        .h{ background-color:#f2db18; padding:0.2in; border-radius:40px;}
+        .h:hover{background-color:#154492; border-radius:40px;}
+        nav a{ text-decoration: none; color: white; padding: 0.2in 0.2in; }
+        nav a:hover { background-color: #f2db18;}
+/* ---------------------------------------------------------------------------------- */
+        .s1{ height:70vh; width: 100%; background-image:url('img/07.jpg'); background-size: cover; background-position:center;}
+        .overlay{ height:70vh; width: 100%; background:rgba(243, 243, 237, 0.8); display: flex;justify-content: center; align-items: center;}
+        .mater{ color:solid black; text-align: center;opacity: 1;}
+/* ---------------------------------------------------------------------------------- */
+        .s2{ height: 80vh; width: 100%; background-color:transparent; margin-top:0.5in;}
+        .sl{ height: 80vh; width:60%; background-color:transparent; float: left; }
+        .sl button{ height: 0.5in; width:2in; background-color: #f2db18; color: white; border: none; font-size: 20px;}
+        .sl button:hover{ background-color: #154492;}
+        .sr{ height: 60vh; width:36%;float:right; margin-right: 2%; background-image:url('img/Thank\ you.jpg'); background-size:cover; }
+/* ---------------------------------------------------------------------------------- */
+        .s3{ height: 15vh; width:95%; margin-left: 5%; background-color: transparent;}
+        .c{ color: #f2db18;}
+/* ---------------------------------------------------------------------------------- */
+        .s4{ height:5in; width: 100%; background-color:transparent; margin-top: 20px;}
+        table{padding: 0.2in 1in; border-spacing: 0.5in;}
+        table a {text-decoration:underline; text-decoration-thickness: 2px ;}
+        table a:hover{ color:#f2db18}
+        
+/* ---------------------------------------------------------------------------------- */
+        .s5{ height: 1.5in; width: 100%; background-color: transparent; line-height:1.5in; text-align: center;}
+        .s5 a{ text-decoration: none; color:#f2db18;}
+/* ---------------------------------------------------------------------------------- */
+        .s6{ height:auto; width:100%; background-color:transparent;} 
+        ul li{margin-top:20px; list-style-type:none; display:inline;}
+        .img2{ margin-left: 50px; margin-top: 20px; height:100%; width:20%;}
+        .s6 img:hover{ opacity:0.3;}
+        .s6 h2{ margin-top: 0.8in; text-align: center;}
+        .s6 a{text-decoration: none; color:#f2db18;}
+/* ------------------------------------------------------------------------------------ */
+        .s7{ height:auto; width:90%; margin-left: 5%; margin-top: 1in;}
+        .x{height:0.8in; width:25%; float: left; }
+        .y{height:0.8in; width:25%; margin-left:75%;}
+        .z{ color: #f2db18; font-size:large;}
+        .tu{height: 0.8in; width:30%;float: left;}
+        .tl{height: 0.8in; width:70%;margin-left:30%; font-size:40px; line-height:30px;}
+
+        .s7 h2{ margin-top: 0.8in; text-align: center;}
+        .s7 a{text-decoration: none; color:#f2db18;}
+
+/* ------------------------------------------------------------------------------ */
+        .s8{ height: auto; width: 100%; margin-top: 1in; background-color:transparent;}
+        .e{ height: auto; width:90%;margin-left: 8%;}
+        .e1{ height: auto; width:33%; float: left;}
+        .e2{ height: auto; width:34%; margin-left: 66%;}
+        .img3{ border:solid silver 15px; border-radius: 50%; padding: 2px; padding: 0;}
+        
+        .img3:hover{ border:solid #f2db18 15px; border-radius: 50%; padding: 2px; padding: 0;}
+
+/* ------------------------------------------------------------------------------------ */
+        .s9{ height: auto; width: 60%; margin-left:20%; margin-top: 1in; text-align: center;}
+
+        .nu{ border:1px solid orange; padding:2px; width:70%; height:1in; line-height:0.7cm; text-align: center; margin-top:1cm; margin-left:1in;}
+
+        .nl{ margin-top:0.5cm; height: 1in; width:100; padding:5px; text-align: left;  margin-left:1in;}
+        #nl1{ height: auto; width: 15%; float: left;}
+        #nl2{ height: auto; width: 85%; margin-left:15%; line-height: 1in; text-align: left;}
+/* ------------------------------------------------------------------------------------ */
+        .s10{ height: auto; width: 60%; margin-left: 20%; text-align: center; margin-top:0.5in;}
+        form{ margin-top:0.5in;}
+        input{text-decoration: none; border-left:none; border-top: none; border-right: none; border-bottom: solid 1px black;  padding: 2px; width: 100%; height:0.8in; font-size:x-large;}
+        /* input:hover{ border-left:none; border-top: none; border-right: none;} */
+        textarea{ width:100%; height: 80px; padding-top:10px; border-bottom:1px solid black; border-top:none; border-right:none; border-left:none; height:1in; font-size:xx-large;}
+       .s10 button{ height: 0.5in; width:2in; background-color: #f2db18; color: white; border: none; font-size: 20px; border: transparent; border-radius:40px;}
+       .s10 button:hover{ background-color: #154492;}
+
+/* ------------------------------------------------------------------------------------ */
+        footer{ height: 5in; width: 100%;}
+
+        .ft1{ height:4in; width: 100%; background-image: url("img/Wellcome.jpg"); background-repeat: repeat; background-size: cover; background-position: center; margin-top:15px;}
+
+        .ov{ height:41n; width: 100%; background:rgba(243, 243, 237, 0.8); display: flex;justify-content: center;}
+
+        .mat{ height:4in; width: 100%;}
+        /* ----------------------------------------------- */
+
+        .lhs{ height:4in; width:40%; float: left;}
+
+        .lhs table{padding: 0.2in 0.2in; border-spacing: 0.2in; font-size: 15px;}
+
+        .lhl{ margin-left: 1cm;}
+
+        .u{ font-size:30px; color: black; text-decoration: none;}
+
+        .u:hover{ color:#f2db18}
+
+/* --------------------------- */
+        .rhs{ height:4in; width:60%; margin-left:40%;}
+
+        .op1{ height: 25%; width: 100%; }
+
+        .op2{ height: 75%; width: 100%; }
+
+        .g1{ height: auto; width: 30%; float: left; margin-left: 5%;}
+        .g1 a{ text-decoration: none; font-size:20px; display:block; line-height: 1cm; color: black;}
+        .g2{ height:auto; width: 30%; float: left;}
+        .g2 a{ text-decoration: none; font-size:20px; display:block; line-height: 1cm; color: black;}
+        .g3{ height:auto; width:30% ; margin-left: 65%;}
+        .g3 a{ text-decoration: none; font-size:20px; display:block; line-height: 1cm; color: black;}
+        .g3 input{ height:0.7cm; border:1px solid salmon; border-radius: 30px; font-size:15px; margin-top: 0.5cm;}
+        .g3 button{ background-color: #f2db18; height: 1cm; width: 3cm; border-radius: 30px; border: transparent; margin-top: 0.5cm;}
+        .g3 button:hover{ background-color: #154492; color: white;}
+
+
+
+/* ------------------------------------------------------------------------------------------ */
+        
+        .ft2{ height:1in; width: 100%; background-color:white; line-height:1in; text-align: center;}
+
+        .zl{ text-decoration: none; color:black;}
+
+        .zl:hover{ display: none;}
